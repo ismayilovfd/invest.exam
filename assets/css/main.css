@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  height: fit-content;
+  background-color: #11100E;
+}
+header p {
+  color: white;
+  font-size: 14px;
+}
+header .col-xl-1 {
+  display: flex;
+  align-items: center;
+  padding-top: 15px;
+}
+header .reg-log p:first-child {
+  color: #FFA800;
+}
+header .reg-log p:first-child:hover {
+  color: white;
+}
+header .reg-log .reg-text {
+  color: #FFA800;
+  padding-left: 15px;
+}
